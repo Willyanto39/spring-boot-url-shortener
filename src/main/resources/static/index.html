@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>URL Shortener</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<h1>URL Shortener</h1>
+		<div id="urls"></div>
+		<form action="/api/urls" method="POST">
+			<label for="url">URL</label>
+			<input id="url" type="text" name="url" value="" placeholder="URL"></input>
+			<button id="submit-btn" type="submit">Submit</button>
+		</form>
+		
+		<script src="scripts/script.js"></script>
+	</body>
+</html>
